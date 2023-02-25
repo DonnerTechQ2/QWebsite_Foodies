@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <title>Foodies</title>
+</head>
+<body>
+  <div class="loader" id="loader">
+    <h1 class="loader_title">Foodies</h1>
+    <h2 class="loader_subtitle">We're Serious For Food.</h2>
+    <h2 class="loader_subsubtitle" id="loader_subsubtitle">loading...</h2>
+  </div>
+
+  <div class="sidenav_menu" id="sidenav">
+    <div class="sidenav_menu_container">
+      <div class="intro_navbar">
+        <a href="#" class="intro_navbar_title">Menu</a>
+        <a onclick="closeNav()" class="sidenav_button"><img src="assets/icons/close.png" alt="Menu"></a>
+      </div>
+      <div class="sidenav_links">
+        <a href="#" class="sidenav_menu_link">Home</a>
+        <a href="#" class="sidenav_menu_link">About Us</a>
+        <a href="#" class="sidenav_menu_link">Service Us</a>
+        <a href="#" class="sidenav_menu_link">Our Company</a>
+        <a href="#" class="sidenav_menu_link">Pages</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="container">
+      <div class="intro_navbar">
+        <a href="#" class="intro_navbar_title">Foodies</a>
+        <div class="intro_links">
+          <a href="#" class="intro_link">Home</a>
+          <a href="#" class="intro_link">About Us</a>
+          <a href="#" class="intro_link">Service Us</a>
+          <a href="#" class="intro_link">Our Company</a>
+          <a href="#" class="intro_link">Pages</a>
+        </div>
+        <a onclick="openNav()" class="sidenav_button"><img src="assets/icons/menu.png" alt="Menu"></a>
+      </div>
+
+      <div class="intro_content">
+        <div class="intro_leftblock">
+          <h1 class="intro_title">We're Serious For Food.</h1>
+          <h2 class="intro_subtitle">We strive to provide a space where guests can connect with themselves and explore their full potential, offering a safe place.</h2>
+          <a href="#" style="animation: 1.3s .4s 1 slideRight" class="button">Get Started<img class="button_arrow" alt="arrow" src="assets/icons/arrow.svg"></a>
+        </div>
+        <div class="intro_image_container">
+          <img class="intro_image" alt="woman cooking" src="assets/images/intro2.png">
+          <img class="intro_image_extra" alt="extra decoration" src="assets/images/extra1.png">
+
+          <div class="intro_image_review">
+            <img class="avatar" alt="avatar" src="assets/avatars/avatar1.jpg">
+            <p class="text">Good Quality Product</p>
+          </div>
+
+          <div class="intro_image_ratings">
+            <p class="text">5.0 Ratings</p>
+            <img class="star" alt="star" src="assets/icons/star.svg">
+            <img class="star" alt="star" src="assets/icons/star.svg">
+            <img class="star" alt="star" src="assets/icons/star.svg">
+            <img class="star" alt="star" src="assets/icons/star.svg">
+            <img class="star" alt="star" src="assets/icons/star.svg">
+          </div>
+        </div>
+      </div>
+
+      <div class="intro_featureblock">
+        <img style="margin-left: 0" alt="feature1" class="feature" src="assets/icons/feature1.png">
+        <img class="feature" alt="feature2" src="assets/icons/feature2.png">
+        <img class="feature" alt="feature3" src="assets/icons/feature3.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="separator"></div>
+  <div class="container_flex rels">
+    <div class="rel">
+      <div class="rel_icon_background">
+        <img class="rel_icon_big" alt="truck" src="assets/icons/truck.svg">
+      </div>
+      <div class="rel_texts">
+        <p class="rel_title">Free Shipping</p>
+        <p class="rel_subtitle">Orders over $140</p>
+      </div>
+    </div>
+    <div class="rel">
+      <div class="rel_icon_background">
+        <img class="rel_icon" alt="wallet" src="assets/icons/wallet.svg">
+      </div>
+      <div class="rel_texts">
+        <p class="rel_title">Quick Payment</p>
+        <p class="rel_subtitle">100% secure payment</p>
+      </div>
+    </div>
+    <div class="rel">
+      <div class="rel_icon_background">
+        <img class="rel_icon" alt="percent" src="assets/icons/percent.svg">
+      </div>
+      <div class="rel_texts">
+        <p class="rel_title">Special Promo</p>
+        <p class="rel_subtitle">Get special promo</p>
+      </div>
+    </div>
+    <div class="rel">
+      <div class="rel_icon_background">
+        <img class="rel_icon" alt="headphones" src="assets/icons/headphones.svg">
+      </div>
+      <div class="rel_texts">
+        <p class="rel_title">24/7 Support</p>
+        <p class="rel_subtitle">Ready support</p>
+      </div>
+    </div>
+  </div>
+  <div class="separator"></div>
+
+  <div class="container_flex b1_container">
+    <div class="b1_image_back">
+      <img src="assets/images/illustrate1.jpg" alt="Food" class="b1_image">
+    </div>
+    <div>
+      <p class="b1_abovetitle">Our Benefit</p>
+      <h1 class="b1_title adaptive_title">The More Healthy<br> Food The Better</h1>
+      <img src="assets/images/extra1.png" alt="Extra decoration" class="b1_title_extra">
+      <div class="b1_reasons">
+        <span class="b1_reason"><img src="assets/icons/checkmark.svg" alt="Checkmark" class="b1_reason_mark">Be Alive With Veggie Food.</span>
+        <span class="b1_reason"><img src="assets/icons/checkmark.svg" alt="Checkmark" class="b1_reason_mark">It's The Place To Be.</span>
+        <span class="b1_reason"><img src="assets/icons/checkmark.svg" alt="Checkmark" class="b1_reason_mark">Nonstop Veggie Food</span>
+        <span class="b1_reason"><img src="assets/icons/checkmark.svg" alt="Checkmark" class="b1_reason_mark">The Best Silk Dish In Town</span>
+        <span class="b1_reason"><img src="assets/icons/checkmark.svg" alt="Checkmark" class="b1_reason_mark">Truffles, Egg & Pumpkin Spice</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container_flex b2_container">
+    <div class="b2_image_back b2_imgback_mobile">
+      <img src="assets/images/illustrate2.jpg" alt="Food" class="b2_image">
+    </div>
+    <div class="flex">
+      <p class="b2_abovetitle">Our Stars</p>
+      <h1 class="b2_title adaptive_title">Veggie Food Goes <br>On And Always On</h1>
+      <img src="assets/images/extra1.png" alt="Extra decoration" class="b2_title_extra">
+      <div class="b2_counters">
+        <div class="counter_container">
+          <p class="counter">1,500</p>
+          <p class="counter_text">Sold Product</p>
+        </div>
+        <div class="counter_container">
+          <p class="counter">500</p>
+          <p class="counter_text">Possitive Feedback</p>
+        </div>
+        <div class="counter_container">
+          <p class="counter">400</p>
+          <p class="counter_text">Official Store</p>
+        </div>
+      </div>
+      <a href="#" class="button b2_button">Get Special Promo<img class="button_arrow" alt="arrow" src="assets/icons/arrow.svg"></a>
+    </div>
+    <div class="b2_image_back b2_imgback_pc">
+      <img src="assets/images/illustrate2.jpg" alt="Food" class="b2_image">
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+  <div class="container_flex b3_container">
+    <span class="b3_abovetitle">Our Features</span>
+    <h1 class="b3_title adaptive_title">Variety Of Foods</h1>
+    <div class="b3_places_container">
+      <div class="b3_place">
+        <img src="assets/places/place1.jpg" alt="Place" class="b3_place_image">
+        <div class="b3_place_textblock">
+          <h1 class="b3_place_textblock_title">Veggies Are Forever</h1>
+          <p class="b3_place_textblock_subtitle">We offer the following services</p>
+          <a href="#" class="b3_place_textblock_button">Discover Now<img src="assets/icons/arrow_green.svg" alt="arrow" class="b3_place_textblock_button_arrow"></a>
+        </div>
+      </div>
+      <div class="b3_place">
+        <img src="assets/places/place2.jpg" alt="Place" class="b3_place_image">
+        <div class="b3_place_textblock">
+          <h1 class="b3_place_textblock_title">Veggies Are Forever</h1>
+          <p class="b3_place_textblock_subtitle">We offer the following services</p>
+          <a href="#" class="b3_place_textblock_button">Discover Now<img src="assets/icons/arrow_green.svg" alt="arrow" class="b3_place_textblock_button_arrow"></a>
+        </div>
+      </div>
+      <div class="b3_place b3_place_inv">
+        <div class="b3_place_textblock">
+          <h1 class="b3_place_textblock_title">Veggies Are Forever</h1>
+          <p class="b3_place_textblock_subtitle">We offer the following services</p>
+          <a href="#" class="b3_place_textblock_button">Discover Now<img src="assets/icons/arrow_green.svg" alt="arrow" class="b3_place_textblock_button_arrow"></a>
+        </div>
+        <img src="assets/places/place3.jpg" alt="Place" class="b3_place_image">
+      </div>
+      <div class="b3_place b3_place_inv">
+        <div class="b3_place_textblock">
+          <h1 class="b3_place_textblock_title">Veggies Are Forever</h1>
+          <p class="b3_place_textblock_subtitle">We offer the following services</p>
+          <a href="#" class="b3_place_textblock_button">Discover Now<img src="assets/icons/arrow_green.svg" alt="arrow" class="b3_place_textblock_button_arrow"></a>
+        </div>
+        <img src="assets/places/place4.jpg" alt="Place" class="b3_place_image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container_flex b4_container">
+    <span class="b4_abovetitle">Our Product</span>
+    <span class="b4_title adaptive_title">Most Popular Product</span>
+    <div class="b4_places_container">
+      <div class="b4_place">
+        <div class="b4_place_image_box">
+          <img src="assets/places/fruit1.jpg" alt="Banana" class="b4_place_image">
+
+        </div>
+        <div class="b4_place_rating">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+        </div>
+        <h1 class="b4_place_name">Summer Veganie</h1>
+        <div class="b4_place_price_container">
+          <p class="b4_place_oldprice">$29</p>
+          <p class="b4_place_price">$25</p>
+        </div>
+        <a href="#" class="b4_button">Buy Now</a>
+      </div>
+      <div class="b4_place">
+        <div class="b4_place_image_box">
+          <img src="assets/places/fruit2.jpg" alt="Banana" class="b4_place_image">
+
+        </div>
+        <div class="b4_place_rating">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+        </div>
+        <h1 class="b4_place_name">Greanie Seafood</h1>
+        <div class="b4_place_price_container">
+          <p class="b4_place_oldprice">$29</p>
+          <p class="b4_place_price">$25</p>
+        </div>
+        <a href="#" class="b4_button">Buy Now</a>
+      </div>
+      <div class="b4_place">
+        <div class="b4_place_image_box">
+          <img src="assets/places/fruit3.jpg" alt="Banana" class="b4_place_image">
+
+        </div>
+        <div class="b4_place_rating">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+        </div>
+        <h1 class="b4_place_name">Fresh Vegetable</h1>
+        <div class="b4_place_price_container">
+          <p class="b4_place_oldprice">$29</p>
+          <p class="b4_place_price">$25</p>
+        </div>
+        <a href="#" class="b4_button">Buy Now</a>
+      </div>
+      <div class="b4_place">
+        <div class="b4_place_image_box">
+          <img src="assets/places/fruit4.jpg" alt="Banana" class="b4_place_image">
+
+        </div>
+        <div class="b4_place_rating">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+          <img src="assets/icons/star.png" alt="Star" class="b4_place_rating_star">
+        </div>
+        <h1 class="b4_place_name">Fresh Meatyus</h1>
+        <div class="b4_place_price_container">
+          <p class="b4_place_oldprice">$29</p>
+          <p class="b4_place_price">$25</p>
+        </div>
+        <a href="#" class="b4_button">Buy Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container_flex banner1_container">
+    <div class="banner1">
+      <p class="banner1_text adaptive_title">Veggie Foods? Ingredients You Want To Try</p>
+      <a href="#" class="button banner1_button">Get Started<img class="button_arrow" alt="arrow" src="assets/icons/arrow.svg"></a>
+    </div>
+  </div>
+
+  <div class="container_flex footer">
+    <div class="footer_mainblock">
+      <p class="footer_mainblock_title">Foodies</p>
+      <h3 href="#" class="footer_secondblock_link footer_mainblock_desk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h3>
+      <div class="footer_mainblock_social">
+        <a href="#" class="footer_mainblock_social_icon"><img src="assets/icons/facebook.svg" alt="facebook"></a>
+        <a href="#" class="footer_mainblock_social_icon"><img src="assets/icons/instagram.svg" alt="instagram"></a>
+        <a href="#" class="footer_mainblock_social_icon"><img src="assets/icons/pomoika.svg" alt="twitter"></a>
+      </div>
+    </div>
+    <div class="footer_secondblock">
+      <p class="footer_secondblock_title">About Us</p>
+      <a href="#" class="footer_secondblock_link">About Us</a>
+      <a href="#" class="footer_secondblock_link">Service Us</a>
+      <a href="#" class="footer_secondblock_link">Contact</a>
+      <a href="#" class="footer_secondblock_link">Company</a>
+    </div>
+    <div class="footer_secondblock">
+      <p class="footer_secondblock_title">Company</p>
+      <a href="#" class="footer_secondblock_link">Partnership</a>
+      <a href="#" class="footer_secondblock_link">Terms of Use</a>
+      <a href="#" class="footer_secondblock_link">Privacy</a>
+      <a href="#" class="footer_secondblock_link">Sitemap</a>
+    </div>
+    <div class="footer_secondblock">
+      <p class="footer_secondblock_title">Get in touch</p>
+      <p class="footer_secondblock_link footer_secondblock_desk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+      <div class="footer_subscripe_block">
+        <input type="email" class="footer_subscribe_input" placeholder="email">
+        <a href="#" class="button footer_subscribe_button">Subscribe</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
