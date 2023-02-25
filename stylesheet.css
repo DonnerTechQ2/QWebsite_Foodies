@@ -941,7 +941,7 @@ p, span, h1, h2
 /* Banner */
 .banner1
 {
-  background: linear-gradient(0deg, rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59)), url(assets/images/banner1.jpg);
+  background: linear-gradient(0deg, rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59)), url(assets/images/banner1.webp);
   height: 459px;
   margin-top: 193px;
   width: 100%;
