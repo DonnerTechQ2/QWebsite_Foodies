@@ -485,7 +485,7 @@ p, span, h1, h2
 }
 .rel:hover .rel_icon
 {
-  transform: scale(115%);
+  transform: scale(1.15);
 }
 .rel_icon_big
 {
@@ -494,7 +494,7 @@ p, span, h1, h2
 }
 .rel:hover .rel_icon_big
 {
-  transform: scale(115%);
+  transform: scale(1.15);
 }
 .rel_icon_background
 {
