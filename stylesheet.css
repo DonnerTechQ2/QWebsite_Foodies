@@ -763,13 +763,13 @@ p, span, h1, h2
 }
 .b3_place
 {
-  height: 292.5px;
+  height: 289.5px;
   flex-direction: row;
   display: flex;
 }
 .b3_place_image
 {
-  width: 292.5px;
+  width: 289.5px;
   height: 100%;
 }
 .b3_place_textblock
@@ -781,6 +781,7 @@ p, span, h1, h2
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  box-sizing: border-box;
 }
 .b3_place_textblock_title
 {
